@@ -12,46 +12,38 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/47f0c34bb1.js" crossorigin="anonymous"></script>
-    <title>SheCodesWeatherApp</title>
+    <title>SheCodesWheatherApp</title>
     <meta charset="UTF-8" />
     <link ref="css" href="src/styles.css" />
-    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
 
   <body>
+    <script src ="index.js"> </script>
     <div class="container">
       <div class="weather-app">
     </br>
- <form>
+ <form id="form">
    <input  type="text" placeholder = "Enter city" class="form-control"/>
-   <input class= "serch-button" type="submit" value="Search"/>
+   <input id="search-input" type="submit" value="Search" />
   <input class="current-button" type="button" value="Current"/> </form>
 </br>
       <div class ="row">
-    <div class="col">  <h1>Moscow</h1>
-      <ul> <li> Friday, 15:30</li>
+    <div class="col">  <h1 id = "city"></h1>
+      <ul> <li id = "local-time"> </li >
  
-     <li>Slightly Cloudy</li> </ul>
+     <li> <span id = "description"></span></li> </ul>
     </div>
      <div class="col"> 
-     <ul> <li>-1°C ⛅ </li> 
-        <li> Percipitation: 2% </li>
-        <li>Wind: 18 km/h </li> </ul>
+     <ul> <li > <span id = "temperature"> </span>°C 
+       </li> 
+        <li> Humidity: <span id = "humidity"> </span>%</li>
+        <li> Wind: <span id="wind"></span> km/h </li> </ul>
       </div>
     </div>
     <br/>
-    <br/>
-    
-    <div class = "row">
-      
-      <div class="col"> Sa <br/> 1° -8° ☁ </div>
-      <div class="col"> So <br/> 4° 0°☁</div>
-      <div class="col"> Mo <br/> 3° -5° ⛅ </div>
-      <div class="col"> Tu <br/> 1° -9° ⛅ </div>
-      <div class="col"> Wed <br/> -1° -11°⛅ </div>
-      
-    
-  </div>
+
+
 </div>
   </body>
 </html>
