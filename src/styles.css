@@ -1,26 +1,28 @@
 body {
   font-family: roboto;
 }
-h1 {
+h1,
+li,
+footer {
   color: #233142;
-  line-height: 28px;
   font-weight: 100;
+  line-height: 28px;
+}
+h1 {
   font-size: 33px;
   margin: 0;
+  margin-bottom: 0;
 }
 ul {
-  margin: 0 0 01px;
+  margin: 0;
   padding: 0;
 }
 li {
-  color: #233142;
-  line-height: 28 px;
-  font-weight: 100;
   font-size: 24px;
   list-style: none;
 }
 .weather-app {
-  border: 20px solid #233142;
+  border: 2px solid #233142;
   padding: 15px;
   margin: 30px auto;
   max-width: 600px;
@@ -30,5 +32,5 @@ a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
-  font-size: 23px;
+  font-size: 18px;
 }
