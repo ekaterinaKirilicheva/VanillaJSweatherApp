@@ -2,7 +2,7 @@ body {
   font-family: roboto;
 }
 h1 {
-  color: #113f67;
+  color: #233142;
   line-height: 28px;
   font-weight: 100;
   font-size: 33px;
@@ -20,11 +20,11 @@ li {
   list-style: none;
 }
 .weather-app {
-  border: 1px solid #233142;
+  border: 20px solid #233142;
   padding: 15px;
-  margin: 10px;
+  margin: 30px auto;
   max-width: 600px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 a {
   outline: none;
