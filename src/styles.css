@@ -3,7 +3,7 @@ body {
 }
 h1,
 li,
-small {
+.footer {
   color: #233142;
   font-weight: 100;
   line-height: 28px;
@@ -35,4 +35,7 @@ a {
   text-decoration: none;
   padding: 2px 1px 0;
   font-size: 18px;
+}
+.units a {
+  font-size: 23px;
 }
