@@ -3,9 +3,10 @@ body {
 }
 h1,
 li,
-.footer {
+.footer,
+.temperature {
   color: #233142;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 28px;
 }
 h1 {
@@ -17,8 +18,12 @@ ul {
   margin: 0;
   padding: 0;
 }
+li,
+.temperature,
+.units a {
+  font-size: 19px;
+}
 li {
-  font-size: 24px;
   list-style: none;
 }
 .weather-app {
@@ -30,12 +35,13 @@ li {
   max-width: 600px;
   margin: 30px auto;
 }
+a,
+.footer {
+  font-size: 18px;
+}
+
 a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
-  font-size: 18px;
-}
-.units a {
-  font-size: 23px;
 }
