@@ -45,3 +45,11 @@ a {
   text-decoration: none;
   padding: 2px 1px 0;
 }
+
+.active {
+  color: #233142;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+}
