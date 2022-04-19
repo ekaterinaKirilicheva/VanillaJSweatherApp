@@ -35,15 +35,17 @@ li {
   max-width: 600px;
   margin: 30px auto;
 }
-a,
+
 .footer {
   font-size: 18px;
+  color: #141010;
 }
 
 a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
+  font-size: 18px;
 }
 
 .active {
@@ -52,4 +54,22 @@ a {
 }
 .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+
+  opacity: 0, 1;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+.weather-forecast-min {
+  opacity: 0, 1;
 }
